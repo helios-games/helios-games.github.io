@@ -1,9 +1,10 @@
 # Welcome to Helios Games
 
+The platform is a multi tennant, multi user system fot builing isolated single and multiplayer games.
+
 # Technology Stack
 
-COntainerised microservices.
-REST API first design.
+Containerised microservices with REST API first design.
 
 * Ubuntu Linux
 * Kubernetes
