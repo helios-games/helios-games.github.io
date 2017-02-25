@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# Welcome to Helios Games
 
-You can use the [editor on GitHub](https://github.com/helios-games/helios-games.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Technology Stack
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+COntainerised microservices.
+REST API first design.
 
-### Markdown
+* Ubuntu Linux
+* Kubernetes
+* Docker
+* Mongo
+* Postgres
+* Nginx
+* CircleCI
+* Git + GitHub 
+* Java 8 + Scala 2.12
+* JUnit + Selenium WebDriver + RestAssured
+* Spring Boot
+* Swagger 2 (OpenAPI)
+* Ruby + Middleman
+* HTML + CSS
+* JavaScript + jQuery + Phaser (PIXIJS)
+* Email
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to create a game
 
-```markdown
-Syntax highlighted code block
+This guide shows you how to create a game that runs on the platform. It covers:
 
-# Header 1
-## Header 2
-### Header 3
+The backend:
 
-- Bulleted
-- List
+* Modeling a game
+* Testing random behaviour
+* Montecarlo simulation
+* "Critical components"
+* Interaction with the wallet
+* Mocking the wallet
+* Reading and writing game state
+* Developing a REST API to your game
 
-1. Numbered
-2. List
+The front end:
 
-**Bold** and _Italic_ and `Code` text
+* Stubbing the API for easier frontend development
+* Building a frontend to your game's backend
 
-[Link](url) and ![Image](src)
-```
+The whole package:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/helios-games/helios-games.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Running the platform locally
+* Writing smoke tests
+* Deployment
