@@ -1,6 +1,6 @@
-# Welcome to Helios Games
+# Overview
 
-The platform is a multi tennant, multi user system fot builing isolated single and multiplayer games.
+The platform is a multi tennant, multi user system fot builing isolated single and multiplayer games. It uses the latest technologies and archtectural best practice to bring stability, reliability, and performance together in an integrated best-of-breed platform  
 
 # Technology Stack
 
