@@ -70,7 +70,7 @@ This might lead to some states:
 
 * Starting state: an empty table
 * Adding a bet: a table with a bet on it
-* Spinning the wheel: a table with bets remove AND some winnings to payout
+* Spinning the wheel: a table with bets removed AND some winnings to payout
 
 Take a look at the [roulette model](https://github.com/phoebus-games/gf/tree/master/src/main/scala/roulette/model).
 
@@ -83,3 +83,11 @@ It the case of roulette, the key random element is what pocket the ball lands on
      () => Pocket
 
 We can then replace this with either a [random version](https://github.com/phoebus-games/gf/blob/master/src/main/scala/roulette/model/Roulette.scala#L13) or, for testing purposes, a [predicable one](https://github.com/phoebus-games/gf/blob/master/src/test/scala/roulette/model/RouletteTest.scala#L11).
+
+## "Critical components"
+
+Some components are considered "critical". These are the ones that are critically important to the bahaviour of the game. this includes the RNG and the model. As changing these is typically more risky than changing other components, its worthwhile separating them out into their own software package or module. This reduces the risk of accidentally changing them.
+
+## Montecarlo Simulation
+
+Along with normal testing, such as unit or integration, it is important to test out random behaviour in games. This can be achieved by performing montecarlo simulations. These make sure a game paysout the correct return to the player. This is typically around 97-99% for a casino game, 95-97% for a slot.
