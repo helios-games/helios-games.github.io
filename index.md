@@ -12,14 +12,23 @@ Containerised microservices with REST API first design.
 * Postgres
 * Nginx
 * CircleCI
-* Git/GitHub 
+* Git/GitHub
+* Java 8
+* Scala 2.11
 * Spring Boot
-* Playframework
+* Playframework 2
+* JUnit
+* ScalaTest
+* Node
+* WDIO
+* Selenium WebDriver
+* RestAssured
+* Gatling
 * Swagger 2 (OpenAPI)
 * Ruby
 * Middleman
 * Jekyll
-* HTML 
+* HTML
 * CSS
 * JavaScript
 * jQuery
@@ -64,7 +73,7 @@ The core of a game is a model of its behaviour. This is usually modelled based o
 
 It's then worthwhile thinking about the events that can happen in the game:
 
-* Spinning the wheel 
+* Spinning the wheel
 * Placing a bet
 * Paying winnings
 
@@ -101,7 +110,7 @@ Every time a player plays a game, we will want to be able to take a payment. Thi
 * Get the current balance
 * Create a transaction
 
-In the case of a transaction, this is likely to be either a wager or a payout. Typically only one wallet is needed per request for a single player game. There can be others, e.g. to hold funds in escrow for big jackpot payout. 
+In the case of a transaction, this is likely to be either a wager or a payout. Typically only one wallet is needed per request for a single player game. There can be others, e.g. to hold funds in escrow for big jackpot payout.
 
 For reporting purposes, funds should not be held either in memory or within state associated with a game (see below).
 
@@ -130,7 +139,7 @@ This takes the player's ID and the game's name as an input and outputs the curre
     {
       "pocket": 24
     }
- 
+
 #### Place bet
 
 This takes the player's ID, the location of the wallet, and game name, and be details as input, and outputs the new game state:
