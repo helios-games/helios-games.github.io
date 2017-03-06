@@ -6,22 +6,24 @@ The platform is a multi tennant, multi user system fot builing isolated single a
 
 Containerised microservices with REST API first design.
 
-* Ubuntu Linux
 * Kubernetes
 * Docker
 * Mongo
 * Postgres
 * Nginx
 * CircleCI
-* Git + GitHub 
-* Java 8 + Scala 2.12
-* JUnit + Selenium WebDriver + RestAssured
+* Git/GitHub 
 * Spring Boot
+* Playframework
 * Swagger 2 (OpenAPI)
-* Ruby + Middleman
-* HTML + CSS
-* JavaScript + jQuery + Phaser (PIXIJS)
-* Email
+* Ruby
+* Middleman
+* Jekyll
+* HTML 
+* CSS
+* JavaScript
+* jQuery
+* Phaser (PIXIJS)
 
 ## How to create a game
 
