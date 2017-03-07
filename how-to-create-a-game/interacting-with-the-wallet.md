@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Interacting with the wallet
 ---
 Every time a player plays a game, we will want to be able to take a payment. This comes from a virtual wallet, which was originally funded by a payment from the player. There are two primary operations on a wallet:

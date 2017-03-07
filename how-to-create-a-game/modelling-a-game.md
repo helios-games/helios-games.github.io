@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Modelling a game
 ---
 The core of a game is a model of its behaviour. This is usually modelled based on the game's domain, and therefore divorced for concerns such as HTTP or databases. For example, roulette has the key terms:

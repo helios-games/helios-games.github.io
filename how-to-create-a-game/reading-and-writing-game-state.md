@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Reading and writing game state
 ---
 Games may wish to store state with a game, e.g.:

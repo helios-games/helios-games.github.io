@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Developing a REST API to your game
 ---
 To allow a game frontend to interact with a game backend, it needs to implement a loose conract, which typically have at least two operations:

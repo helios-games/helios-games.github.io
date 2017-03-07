@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Mocking the wallet
 ---
 TODO

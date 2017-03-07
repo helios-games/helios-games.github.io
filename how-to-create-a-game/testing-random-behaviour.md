@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: Testing random behaviour
 ---
 It's hard to test random behaviour, yet games are full of them. Normally, in a game we use random numbers created by a *random number generator* (RNG) to produce this behaviour. But this make it hard to test. To manage this, it help to create an abstraction around the RNG that can then be replaced by something a little less - random.

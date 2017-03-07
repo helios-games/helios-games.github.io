@@ -2,7 +2,7 @@ title: Phoebus Games
 description: Lets play!
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-leap-day
 exclude:
   - Gemfile
   - Gemfile.lock
