@@ -1,2 +1,8 @@
-theme: jekyll-theme-leap-day
-name: Phoebus Games
+title: Phoebus Games
+description: Lets play!
+
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock

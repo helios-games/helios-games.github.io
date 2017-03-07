@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+
+    <main class="page-content" aria-label="Content">
+      {% include header.html %}
+      <div class="wrapper">
+<div  style="float: left; width: 25%;">
+        {% capture my_include %}{% include_relative nav.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+</div>
+<div style="float: left; width: 75%;">
+
+        {{ content }}
+
+
+  </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
